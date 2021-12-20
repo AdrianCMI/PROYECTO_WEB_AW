@@ -1,0 +1,84 @@
+body {
+
+    font-family: garamond;
+}
+.all {
+
+    background-color: rgb(235, 235, 235);
+    width: 500px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.116);
+}
+
+.div_inicio {
+
+    float: right;
+    position: relative;
+    top: -34px;
+}
+
+.inicio {
+
+    text-align: middle;
+    border: 0px solid rgba(0, 0, 0, 0.048);
+    background-color: wheat;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.inicio:hover {
+
+    outline: 0px;
+    border: 0px solid rgba(44, 44, 44, 0.068);
+    height: 35px;
+}
+
+.telefono, .correo, .nombre {
+
+    background-color: rgba(31, 31, 31, 0.089);
+    height: 30px;
+    width: 440px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.telefono:focus, .correo:focus, .nombre:focus {
+
+    outline: 0px;
+    border: 0px solid rgba(73, 73, 73, 0.068);
+    height: 35px;
+}
+
+.reg {
+
+    height: 45px;
+    width: 420px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(216, 216, 216);
+}
+
+.div_reg {
+
+    text-align: center;
+}
+
+.reg:hover {
+
+    outline: 0px;
+    border: 0px solid rgba(44, 44, 44, 0.068);
+    height: 50px;
+}

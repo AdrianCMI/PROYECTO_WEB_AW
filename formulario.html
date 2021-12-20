@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css" type="text/css">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="logo.png">
+    <style>
+        body {
+
+            background-image: url(fondo.jpg);
+            background-repeat: round;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <form class="forms" action="" method="">
+            <div class="div_inicio">
+                <a href="index.html"><button class="inicio" type="button"><h7>Inicio</h7></button></a>
+            </div>
+            <div class="header">
+                <h1>INFÓRMATE!!</h1>
+                <h3>(completa todos los campos del formulario para contactar con los supervisores de la página web)</h3>
+            </div>
+            <hr>
+            <div>
+            <p>
+                <label class="correol"><b>Correo electrónico:</b></label>
+                <br>
+                <input class="correo" id="mail" type="email" required="obligatorio" placeholder="escriba su email...">
+            </p>
+            </div>
+            <hr>
+            <div>
+            <p>
+                <label class="nombrel"><b>Nombre:</b></label>
+                <br>
+                <input class="nombre" id="nom" type="text" required="obligatorio" placeholder="escriba su nombre...">
+            </p>
+            </div>
+            <hr>
+            <div>
+            <p>
+                <label class="telefonol"><b>Número de teléfono: (opcional)</b></label>
+                <br>
+                <input class="telefono" id="tel" type="number" placeholder="escriba su número...">
+            </p>
+            </div>
+            <hr>
+            <div>
+                <br>
+                <div class="div_reg">
+                <div class="reg" onclick="submit()"><h7><b>Registrarse</b></h7></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+
+
+        var submit = function() {
+            
+            var gmail = document.getElementById("mail").value;
+            var nombre = document.getElementById("nom").value;
+            var telefon = document.getElementById("tel").value;
+            var datos = ('Estos son sus datos: \n' + 'Gmail: ' + gmail + '\n' + 'Nombre: ' + nombre + '\n' + 'Número: ' + telefon)
+            confirm(datos)
+            if (confirm == true) {
+                alert('Muchas gracias' + nombre + 'ya nos pondremos en contacto con usted.')
+            }
+        }
+
+
+    </script>
+</body>
+</html> 

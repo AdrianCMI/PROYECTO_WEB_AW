@@ -1,0 +1,96 @@
+.head {
+
+    color: white;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: 300%;
+    font-family: cursive;
+    position: relative;
+    float: left;
+}
+
+.logo {
+
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+.tittle {
+
+    width: auto;
+    height: auto;
+    position: relative;
+    left: -150px;
+}
+
+.hueco1 {
+
+    float: left;
+    height: 70px;
+    width: 100%;
+}
+
+.column {
+
+    color: white;
+    height: auto;
+    width: 90%; 
+    position: relative;
+    float: left;
+
+}
+
+.column1 {
+
+    float: left;
+}
+
+.column1, .column2, .column3 {
+
+    height: 500px;
+    width: 25%;
+    border: 1px solid white;
+    position: relative;
+    float: left;
+    margin-left: 8%;
+    border-radius: 30px;
+}
+
+.links {
+
+    text-decoration: none;
+    color: white;
+}
+
+.column h1 {
+
+    text-align: center;
+    color: aqua;
+    font-size: 230%;
+}
+
+.dato {
+
+    position: relative;
+    top: -90px;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    opacity: 0%;
+    transition: 0.3s ease-in;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.info {
+
+    position: relative;
+    top: 350px;
+}
+
+.dato:hover {
+
+    opacity: 90%;
+}
